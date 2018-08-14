@@ -15,6 +15,17 @@
 		829CBE301CD4BD0F0077552A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829CBE2E1CD4BD0F0077552A /* LaunchScreen.storyboard */; };
 		829CBE3B1CD4BD100077552A /* coredataDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 829CBE3A1CD4BD100077552A /* coredataDemoTests.m */; };
 		829CBE461CD4BD100077552A /* coredataDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 829CBE451CD4BD100077552A /* coredataDemoUITests.m */; };
+		829CBE641CD4BE130077552A /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829CBE631CD4BE130077552A /* secondViewController.m */; };
+		829CBE6D1CD4BEE60077552A /* IQDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 829CBE661CD4BEE60077552A /* IQDatabaseManager.m */; };
+		829CBE6E1CD4BEE60077552A /* MyDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 829CBE6A1CD4BEE60077552A /* MyDatabaseManager.m */; };
+		829CBE6F1CD4BEE60077552A /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 829CBE6C1CD4BEE60077552A /* Settings.m */; };
+		829CBE711CD4BF170077552A /* MyDatabase.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 829CBE701CD4BF170077552A /* MyDatabase.xcdatamodel */; };
+		829CBE7F1CD4BF710077552A /* RecordTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 829CBE7D1CD4BF710077552A /* RecordTable.m */; };
+		829CBE811CD4CF060077552A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829CBE801CD4CF050077552A /* CoreData.framework */; };
+		829CBE871CD4E0810077552A /* thordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829CBE861CD4E0810077552A /* thordViewController.m */; };
+		82E574D41CD5DD2900D3D951 /* InboxtableviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E574D21CD5DD2900D3D951 /* InboxtableviewCell.m */; };
+		82E574D51CD5DD2900D3D951 /* InboxtableviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E574D31CD5DD2900D3D951 /* InboxtableviewCell.xib */; };
+		82E574D81CD60DFD00D3D951 /* UpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E574D71CD60DFD00D3D951 /* UpdateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,27 @@
 		829CBE411CD4BD100077552A /* coredataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coredataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		829CBE451CD4BD100077552A /* coredataDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coredataDemoUITests.m; sourceTree = "<group>"; };
 		829CBE471CD4BD100077552A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829CBE621CD4BE130077552A /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		829CBE631CD4BE130077552A /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		829CBE651CD4BEE60077552A /* IQDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQDatabaseManager.h; sourceTree = "<group>"; };
+		829CBE661CD4BEE60077552A /* IQDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQDatabaseManager.m; sourceTree = "<group>"; };
+		829CBE671CD4BEE60077552A /* IQDatabaseManagerSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQDatabaseManagerSubclass.h; sourceTree = "<group>"; };
+		829CBE681CD4BEE60077552A /* MyDatabaseConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDatabaseConstants.h; sourceTree = "<group>"; };
+		829CBE691CD4BEE60077552A /* MyDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDatabaseManager.h; sourceTree = "<group>"; };
+		829CBE6A1CD4BEE60077552A /* MyDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDatabaseManager.m; sourceTree = "<group>"; };
+		829CBE6B1CD4BEE60077552A /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		829CBE6C1CD4BEE60077552A /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		829CBE701CD4BF170077552A /* MyDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDatabase.xcdatamodel; sourceTree = "<group>"; };
+		829CBE7D1CD4BF710077552A /* RecordTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTable.m; sourceTree = "<group>"; };
+		829CBE7E1CD4BF710077552A /* RecordTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTable.h; sourceTree = "<group>"; };
+		829CBE801CD4CF050077552A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		829CBE851CD4E0810077552A /* thordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thordViewController.h; sourceTree = "<group>"; };
+		829CBE861CD4E0810077552A /* thordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thordViewController.m; sourceTree = "<group>"; };
+		82E574D11CD5DD2900D3D951 /* InboxtableviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxtableviewCell.h; sourceTree = "<group>"; };
+		82E574D21CD5DD2900D3D951 /* InboxtableviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxtableviewCell.m; sourceTree = "<group>"; };
+		82E574D31CD5DD2900D3D951 /* InboxtableviewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InboxtableviewCell.xib; sourceTree = "<group>"; };
+		82E574D61CD60DFD00D3D951 /* UpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateViewController.h; sourceTree = "<group>"; };
+		82E574D71CD60DFD00D3D951 /* UpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829CBE811CD4CF060077552A /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +114,7 @@
 		829CBE141CD4BD0D0077552A = {
 			isa = PBXGroup;
 			children = (
+				829CBE801CD4CF050077552A /* CoreData.framework */,
 				829CBE1F1CD4BD0E0077552A /* coredataDemo */,
 				829CBE391CD4BD100077552A /* coredataDemoTests */,
 				829CBE441CD4BD100077552A /* coredataDemoUITests */,
@@ -101,6 +135,7 @@
 		829CBE1F1CD4BD0E0077552A /* coredataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				829CBE531CD4BD780077552A /* CoreData */,
 				829CBE231CD4BD0E0077552A /* AppDelegate.h */,
 				829CBE241CD4BD0E0077552A /* AppDelegate.m */,
 				829CBE261CD4BD0E0077552A /* ViewController.h */,
@@ -110,6 +145,15 @@
 				829CBE2E1CD4BD0F0077552A /* LaunchScreen.storyboard */,
 				829CBE311CD4BD100077552A /* Info.plist */,
 				829CBE201CD4BD0E0077552A /* Supporting Files */,
+				829CBE621CD4BE130077552A /* secondViewController.h */,
+				829CBE631CD4BE130077552A /* secondViewController.m */,
+				829CBE851CD4E0810077552A /* thordViewController.h */,
+				829CBE861CD4E0810077552A /* thordViewController.m */,
+				82E574D11CD5DD2900D3D951 /* InboxtableviewCell.h */,
+				82E574D21CD5DD2900D3D951 /* InboxtableviewCell.m */,
+				82E574D31CD5DD2900D3D951 /* InboxtableviewCell.xib */,
+				82E574D61CD60DFD00D3D951 /* UpdateViewController.h */,
+				82E574D71CD60DFD00D3D951 /* UpdateViewController.m */,
 			);
 			path = coredataDemo;
 			sourceTree = "<group>";
@@ -138,6 +182,24 @@
 				829CBE471CD4BD100077552A /* Info.plist */,
 			);
 			path = coredataDemoUITests;
+			sourceTree = "<group>";
+		};
+		829CBE531CD4BD780077552A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				829CBE7D1CD4BF710077552A /* RecordTable.m */,
+				829CBE7E1CD4BF710077552A /* RecordTable.h */,
+				829CBE651CD4BEE60077552A /* IQDatabaseManager.h */,
+				829CBE661CD4BEE60077552A /* IQDatabaseManager.m */,
+				829CBE671CD4BEE60077552A /* IQDatabaseManagerSubclass.h */,
+				829CBE681CD4BEE60077552A /* MyDatabaseConstants.h */,
+				829CBE691CD4BEE60077552A /* MyDatabaseManager.h */,
+				829CBE6A1CD4BEE60077552A /* MyDatabaseManager.m */,
+				829CBE6B1CD4BEE60077552A /* Settings.h */,
+				829CBE6C1CD4BEE60077552A /* Settings.m */,
+				829CBE701CD4BF170077552A /* MyDatabase.xcdatamodel */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +307,7 @@
 			files = (
 				829CBE301CD4BD0F0077552A /* LaunchScreen.storyboard in Resources */,
 				829CBE2D1CD4BD0F0077552A /* Assets.xcassets in Resources */,
+				82E574D51CD5DD2900D3D951 /* InboxtableviewCell.xib in Resources */,
 				829CBE2B1CD4BD0F0077552A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +333,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829CBE6E1CD4BEE60077552A /* MyDatabaseManager.m in Sources */,
 				829CBE281CD4BD0F0077552A /* ViewController.m in Sources */,
+				829CBE641CD4BE130077552A /* secondViewController.m in Sources */,
+				82E574D41CD5DD2900D3D951 /* InboxtableviewCell.m in Sources */,
+				829CBE7F1CD4BF710077552A /* RecordTable.m in Sources */,
+				829CBE6D1CD4BEE60077552A /* IQDatabaseManager.m in Sources */,
 				829CBE251CD4BD0E0077552A /* AppDelegate.m in Sources */,
+				829CBE711CD4BF170077552A /* MyDatabase.xcdatamodel in Sources */,
 				829CBE221CD4BD0E0077552A /* main.m in Sources */,
+				829CBE871CD4E0810077552A /* thordViewController.m in Sources */,
+				829CBE6F1CD4BEE60077552A /* Settings.m in Sources */,
+				82E574D81CD60DFD00D3D951 /* UpdateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +570,7 @@
 				829CBE4C1CD4BD100077552A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		829CBE4D1CD4BD100077552A /* Build configuration list for PBXNativeTarget "coredataDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +579,7 @@
 				829CBE4F1CD4BD100077552A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		829CBE501CD4BD100077552A /* Build configuration list for PBXNativeTarget "coredataDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +588,7 @@
 				829CBE521CD4BD100077552A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
